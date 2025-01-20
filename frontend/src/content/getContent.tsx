@@ -1,8 +1,8 @@
 // frontend/components/GetContent.tsx
 import React, { useState } from 'react';
-import GetContentButton from './components/ComponentButton';
-import { ContentService } from '../services/ContentService';
-import ContentDisplay from './components/Content';
+import Button from '@/components/Button';
+import { ContentService } from '../services/ApiService';
+import ContentDisplay from './components/ContentDisplay';
 
 function GetContent() {
   const [loading, setLoading] = useState(false);
@@ -23,7 +23,7 @@ function GetContent() {
   return (
     <>
       <div className="space-y-4">
-        <GetContentButton onClick={getContent} />
+        <Button onClick={getContent} text="Get Content" />
       </div>
       <ContentDisplay content={content} loading={loading} />
     </>

@@ -1,3 +1,6 @@
 # Node modules
 frontend/node_modules
 node-backend/node_modules
+# Output files
+node-backend/output
+node-backend/src/output

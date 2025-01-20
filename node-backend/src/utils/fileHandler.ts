@@ -48,3 +48,16 @@ export async function processFileWithStreams(
       });
   });
 }
+
+export async function fileUploadHandler(buffer: Buffer): Promise<void> {
+  // Placeholder function for file upload handling
+  console.log('File upload handler called with buffer:', buffer);
+
+  try {
+    // Write buffer to a file
+    fs.writeFileSync('output/uploadFile.pdf', buffer);
+    console.log('File written successfully');
+  } catch (error) {
+    console.error('Error writing file:', error);
+  }
+}

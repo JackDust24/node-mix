@@ -3,7 +3,7 @@ import { processFileWithStreams } from '../utils/fileHandler';
 import path from 'path';
 
 const inputFilePath = path.join(__dirname, '../data/example.json');
-const outputFile = path.join(__dirname, '../output/streamOutput.txt');
+const outputFile = path.join(__dirname, '../../output/streamOutput.txt');
 
 export const getContent = async (req: Request, res: Response) => {
   try {

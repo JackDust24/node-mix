@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bryan",
+    "location": "France",
+    "content": "The quick brown fox jumps over the lazy dog."
+  },
+  {
+    "name": "jason",
+    "location": "UK",
+    "content": "Streams are powerful and efficient for handling I/O."
+  },
+  {
+    "name": "sara",
+    "location": "USA",
+    "content": "Node.js makes working with streams straightforward."
+  },
+  {
+    "name": "emma",
+    "location": "Australia",
+    "content": "This is an example to demonstrate extracting nested content."
+  }
+]

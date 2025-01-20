@@ -1,0 +1,4 @@
+The quick brown fox jumps over the lazy dog.
+Streams are powerful and efficient for handling I/O.
+Node.js makes working with streams straightforward.
+This is an example to demonstrate extracting nested content.
